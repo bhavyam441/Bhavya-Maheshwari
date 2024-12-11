@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0078D4;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #005ea6;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 900px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .hero {
+            text-align: center;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            margin: 0.5rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #0078D4;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jane Doe</h1>
+        <p>Committed to Delivering Exceptional Customer Experiences</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated and highly skilled Customer Support Associate with over a year of experience in delivering exceptional customer service. Known for my strong communication skills, patience, and ability to thrive under pressure, I excel in managing multiple tasks while ensuring customer satisfaction.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Strong verbal and written communication skills</li>
+            <li>Ability to manage high-pressure situations with patience and efficiency</li>
+            <li>Skilled in multitasking and prioritizing customer needs</li>
+            <li>Proficient in problem-solving and conflict resolution</li>
+            <li>Experience with customer support tools</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <h3>Amazon – Customer Support Associate</h3>
+        <p><em>May 2024 – November 2024</em></p>
+        <ul>
+            <li>Resolved customer inquiries via email and live chat, achieving a 95% satisfaction rate</li>
+            <li>Managed an average of 50+ customer interactions daily, maintaining high-quality service</li>
+            <li>Successfully navigated complex issues and ensured timely resolutions within SLA</li>
+            <li>Collaborated with internal teams to enhance support processes and improve customer experience</li>
+        </ul>
+
+        <h3>Teleperformance – Customer Support Associate</h3>
+        <p><em>February 2023 – September 2023</em></p>
+        <ul>
+            <li>Assisted customers with product and account-related concerns, maintaining an 85% first-call resolution rate</li>
+            <li>Handled a diverse customer base, showcasing adaptability and cultural sensitivity</li>
+            <li>Provided technical support and guided customers through troubleshooting processes</li>
+            <li>Recognized as a top performer for consistently meeting and exceeding KPIs</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: jane.doe@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/janedoe" target="_blank">linkedin.com/in/janedoe</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jane Doe. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
